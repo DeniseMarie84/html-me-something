@@ -1,10 +1,47 @@
-.column{
-    float: left;
-    width: 33.33%
+body{
+    background-color: rgb(207, 165, 193);
+    position: relative;
+    padding: 0;
 }
 
-.row: after{
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-right: 0;
+}
+
+.row after{
 content: "";
 display: table;
-clear: both
+clear: both;
+}
+
+footer{
+    background-color: paleturquoise;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    height: 5em;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+    margin-bottom: 10em;
+    padding: .5em
+
+}
+
+#Georgiafont{
+    font-family: Georgia;
+}
+
+#intro{
+    font-family: serif;
+    font-style: italic;
+    font-size: larger;
+    padding: 40px;
+    margin: 0
 }
